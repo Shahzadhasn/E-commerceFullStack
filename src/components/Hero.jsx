@@ -3,10 +3,10 @@ import { Search, ArrowRight } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <div className='flex min-h-screen p-10 gap-8 bg-white'>
+    <div className='flex flex-col lg:flex-row min-h-screen p-10 gap-8 bg-white'>
 
       {/* LEFT */}
-      <div className="w-[25%] flex flex-col p-5">
+      <div className="w-full lg:w-[25%] flex flex-col p-5">
 
         {/* Categories */}
         <div className='flex flex-col gap-5 text-sm text-zinc-600 uppercase'>
@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
 
       {/* IMAGE 1 */}
-      <div className="w-[35%] h-[650px] overflow-hidden">
+      <div className="w-full lg:w-[35%] h-150.5 overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1200&auto=format&fit=crop"
           alt=""
@@ -56,7 +56,7 @@ const Hero = () => {
       </div>
 
       {/* IMAGE 2 */}
-      <div className="w-[35%] h-[650px] overflow-hidden">
+      <div className="w-full lg:w-[35%] h-150.5 overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop"
           alt=""
